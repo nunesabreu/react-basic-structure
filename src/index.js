@@ -4,7 +4,7 @@ import './style/main.less';
 
 class Welcome extends React.Component {
     render () {
-        return <h1>Hello</h1>;
+        return <h1>Hello World</h1>;
     }
 }
 
