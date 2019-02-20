@@ -11,7 +11,7 @@ module.exports = {
     },
     devServer: {
         contentBase: './build',
-        publicPath: '/build/'
+        publicPath: '/'
     },
     performance: {
         maxEntrypointSize: 256000,
