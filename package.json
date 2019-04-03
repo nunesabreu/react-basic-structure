@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --progress --colors --inline --hot",
     "format": "prettier --write \"src/**/*.js\"",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
     "build": "webpack --mode production"
   },
-  "keywords": ["react","basic","structure"],
+  "keywords": [
+    "react",
+    "basic",
+    "structure"
+  ],
   "author": "Nunes Aguiar de Abreu",
   "license": "ISC",
   "dependencies": {
@@ -23,6 +26,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^2.1.0",
     "eslint": "^5.12.1",
     "eslint-config-react": "^1.1.7",
